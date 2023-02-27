@@ -100,15 +100,7 @@ font-style: normal;
     line-height:34px;
     text-align: center;
 }
-.loginfont{
-font-family: 'Cabin';
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 34px;
-text-align: center;
-color: #969696;
-}
+
 .loginfont1{
     font-family: 'Cabin';
     font-style: normal;
@@ -126,6 +118,5 @@ color: #969696;
     font-family: 'Cambay';
     font-style: normal;
     text-align: center;
-
-color: #EF6D50;
+    color: #EF6D50;
 }
