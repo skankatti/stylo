@@ -47,14 +47,14 @@
     height: 45px;
     left: 5px;
     top: 250px;
+    border: none;
     background: linear-gradient(90deg, rgba(255, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.63) 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
     font-family: 'Cabin';
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
-    line-height: 34px;
+    font-size: 25px;
     text-align: center;
     color: #FFFFFF;
 
@@ -69,40 +69,41 @@ font-style: normal;
 
 .adminLogin{
     position: absolute;
-    width: 120px;
+    width: 100px;
     height: 45px;
     left: 670px;
     top: 15px;
     border: none;
     background-color: inherit;
     border-radius: 20px;
-    font-family: 'Cabin';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 34px;
     text-align: center;
+    
 }
 
 .userLogin{
     position: absolute;
-    width: 120px;
+    width: 80px;
     height: 45px;
-    left: 520px;
+    left: 580px;
     top: 15px;
     border: none;
     background-color: inherit;
     border-radius: 20px;
-    font-family: 'Cabin';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 20px;
     line-height:34px;
     text-align: center;
 }
 
 .loginfont{
-    font-family: 'Cabin';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
@@ -113,9 +114,9 @@ font-style: normal;
 }
 .forgot{
     position: absolute;
-    left:70px;
+    left:65px;
     top: 310px;
-    font-family: 'Cambay';
+    font-family: 'Arial';
     font-style: normal;
     text-align: center;
     color: #EF6D50;
@@ -123,26 +124,42 @@ font-style: normal;
 
 button:hover {
     background-color: rgb(248, 94, 94);
-    transition: 0.2s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.7s;
+    cursor: pointer
+    
   }
 
   input[type=text] {
     background: transparent;
     border: none;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #969696;
     position: absolute;
     width: 250px;
-    font-family: 'Cabin';
+    font-family: 'Arial';
     font-style: normal;
     font-size: 20px;
+    display: block;
+    outline: none;
 }
 input[type=password] {
     background: transparent;
-    font-family: 'Cabin';
+    font-family: 'Arial';
     font-style: normal;
     border: none;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #969696;
     width: 250px;
     font-size: 20px;
+    outline: none;
+}
+input[type=checkbox] {
+    font-family: 'Arial';
+    font-style: normal;
+    
+}
 
+.remember{
+    font-family: 'Arial';
+    font-style: normal;
+    
 }
