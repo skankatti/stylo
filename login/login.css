@@ -73,8 +73,8 @@ font-style: normal;
     height: 45px;
     left: 670px;
     top: 15px;
-    background: rgba(255, 0, 0, 0.3);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    background-color: inherit;
     border-radius: 20px;
     font-family: 'Cabin';
     font-style: normal;
@@ -90,8 +90,8 @@ font-style: normal;
     height: 45px;
     left: 520px;
     top: 15px;
-    background: rgba(255, 0, 0, 0.3);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    background-color: inherit;
     border-radius: 20px;
     font-family: 'Cabin';
     font-style: normal;
@@ -101,11 +101,11 @@ font-style: normal;
     text-align: center;
 }
 
-.loginfont1{
+.loginfont{
     font-family: 'Cabin';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 34px;
     text-align: center;
     color: #969696; 
@@ -113,8 +113,8 @@ font-style: normal;
 }
 .forgot{
     position: absolute;
-    left: 80px;
-    top: 300px;
+    left:70px;
+    top: 310px;
     font-family: 'Cambay';
     font-style: normal;
     text-align: center;
@@ -125,3 +125,24 @@ button:hover {
     background-color: rgb(248, 94, 94);
     transition: 0.2s;
   }
+
+  input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    position: absolute;
+    width: 250px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-size: 20px;
+}
+input[type=password] {
+    background: transparent;
+    font-family: 'Cabin';
+    font-style: normal;
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 250px;
+    font-size: 20px;
+
+}
